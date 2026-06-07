@@ -1,0 +1,696 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Boons",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    560.0,
+    -128.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": {
+      "type": "Inherit"
+    },
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "filter": {
+    "player": {
+      "combat": null,
+      "weapons": [],
+      "weapon_mode": "Any",
+      "sigils": [],
+      "sigil_mode": "Any",
+      "relics": [],
+      "traits": [],
+      "trait_mode": "All",
+      "specs": [],
+      "skill_selections": [],
+      "skill_selections_mode": "All",
+      "prof_selections": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Offensive",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        790.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Inherit"
+        },
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": true,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Horizontal",
+      "size": [
+        70.0,
+        70.0
+      ],
+      "pad": 17.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Quickness",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                1187
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "File": "Quickness big.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": true,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Alacrity",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                30328
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "File": "Alacrity big.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": true,
+          "stacks_text": false
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Situational",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        710.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Inherit"
+        },
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": true,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Horizontal",
+      "size": [
+        70.0,
+        70.0
+      ],
+      "pad": 17.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Aegis",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                743
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "File": "Aegis big.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Stability",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                1122
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "File": "Stability big.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Buffs",
+      "anchor": "Parent",
+      "pos": [
+        -849.0,
+        548.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Inherit"
+        },
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": true,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "IconList",
+      "layout": "Static",
+      "direction": "Horizontal",
+      "size": [
+        70.0,
+        70.0
+      ],
+      "pad": 17.0,
+      "icons": [
+        {
+          "enabled": true,
+          "name": "Relic Claw/Fire/Bloodstone",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                73955,
+                69855,
+                76326,
+                76128
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/7/7f/Relic_of_the_Claw.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.1111113,
+          "round": 0.5,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": true,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Weaver Self",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                42951,
+                45267
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "File": "Weave_Self.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": true,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Light Aura",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                25518
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/5/5a/Light_Aura.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": true,
+          "stacks_text": false
+        },
+        {
+          "enabled": true,
+          "name": "Luminary's Blessing",
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                77333
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/1/13/Light%27s_Gift.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": true,
+          "stacks_text": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "v1",
   "enabled": true,
-  "name": "ura_mechanics",
+  "name": "Boss Mechanics",
   "anchor": {
     "Screen": "Center"
   },
@@ -46,7 +46,7 @@
   "elements": [
     {
       "enabled": true,
-      "name": "cairn",
+      "name": "Cairn CM SAK",
       "anchor": "Parent",
       "pos": [
         0.0,
@@ -110,7 +110,7 @@
     },
     {
       "enabled": true,
-      "name": "Bubble Target",
+      "name": "Ura Bubble Target",
       "anchor": "Parent",
       "pos": [
         0.0,
@@ -234,7 +234,7 @@
     },
     {
       "enabled": true,
-      "name": "Sulphuric Target",
+      "name": "Ura Sulphuric Target",
       "anchor": "Parent",
       "pos": [
         0.0,
