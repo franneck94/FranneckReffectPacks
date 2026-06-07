@@ -1,0 +1,298 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "ura_mechanics",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    400.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": {
+      "type": "Inherit"
+    },
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "filter": {
+    "player": {
+      "combat": null,
+      "weapons": [],
+      "weapon_mode": "Any",
+      "sigils": [],
+      "sigil_mode": "Any",
+      "relics": [],
+      "traits": [],
+      "trait_mode": "All",
+      "specs": [],
+      "skill_selections": [],
+      "skill_selections_mode": "All",
+      "prof_selections": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "cairn",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -482.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            38098
+          ]
+        },
+        "threshold": {
+          "threshold_type": {
+            "Below": 49.6
+          },
+          "amount_type": "Percent"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": {
+        "kind": "Pulse",
+        "period": 1500
+      },
+      "type": "Text",
+      "text": "%c",
+      "font": "MENOMONIA_BIG_S",
+      "align": "Center",
+      "scale": 4.0,
+      "color": [
+        0.995338,
+        0.04408258,
+        0.04408258,
+        1.0
+      ],
+      "decoration": "OutlineDouble",
+      "conditions": []
+    },
+    {
+      "enabled": true,
+      "name": "Bubble Target",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -482.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            75067
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": {
+        "kind": "Pulse",
+        "period": 1500
+      },
+      "type": "Text",
+      "text": "Bubble Target!",
+      "font": "MENOMONIA_BIG_S",
+      "align": "Center",
+      "scale": 4.0,
+      "color": [
+        0.66480446,
+        0.31197533,
+        0.0,
+        1.0
+      ],
+      "decoration": "OutlineDouble",
+      "conditions": []
+    },
+    {
+      "enabled": true,
+      "name": "Dhuum Shackles",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -482.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            48042
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": {
+        "kind": "Pulse",
+        "period": 1500
+      },
+      "type": "Text",
+      "text": "SHACKLE!",
+      "font": "MENOMONIA_BIG_S",
+      "align": "Center",
+      "scale": 4.0,
+      "color": [
+        0.66480446,
+        0.31197533,
+        0.0,
+        1.0
+      ],
+      "decoration": "OutlineDouble",
+      "conditions": []
+    },
+    {
+      "enabled": true,
+      "name": "Sulphuric Target",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -400.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            75376
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Present",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": {
+        "kind": "Pulse",
+        "period": 1500
+      },
+      "type": "Text",
+      "text": "Sulphuric! Run you fool!",
+      "font": "MENOMONIA_BIG_S",
+      "align": "Center",
+      "scale": 5.0,
+      "color": [
+        1.0,
+        0.03571427,
+        0.0,
+        1.0
+      ],
+      "decoration": "OutlineDouble",
+      "conditions": []
+    }
+  ]
+}

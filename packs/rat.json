@@ -1,0 +1,475 @@
+{
+  "schema": "v1",
+  "enabled": false,
+  "name": "rat",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": {
+      "type": "Inherit"
+    },
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "filter": {
+    "player": {
+      "combat": null,
+      "weapons": [],
+      "weapon_mode": "Any",
+      "sigils": [],
+      "sigil_mode": "Any",
+      "relics": [],
+      "traits": [],
+      "trait_mode": "All",
+      "specs": [],
+      "skill_selections": [],
+      "skill_selections_mode": "All",
+      "prof_selections": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [
+        "PvE",
+        "Instance",
+        "Other"
+      ],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Kryptis",
+      "anchor": "Parent",
+      "pos": [
+        -388.0,
+        400.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            77931
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Missing",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "Rat\\Kryptis.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [
+        {
+          "trigger": {
+            "Player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [
+                "Antiquary"
+              ],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            }
+          },
+          "properties": {
+            "tint": null,
+            "zoom": null,
+            "round": null,
+            "border_size": null,
+            "border_color": null
+          }
+        }
+      ],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        48.0,
+        48.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Holo",
+      "anchor": "Parent",
+      "pos": [
+        -275.0,
+        400.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            78060
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Missing",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "Rat\\Holo.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [
+        {
+          "trigger": {
+            "Player": {
+              "combat": null,
+              "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
+              "traits": [],
+              "trait_mode": "All",
+              "specs": [
+                "Antiquary"
+              ],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
+              "mounts": []
+            }
+          },
+          "properties": {
+            "tint": null,
+            "zoom": null,
+            "round": null,
+            "border_size": null,
+            "border_color": null
+          }
+        }
+      ],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        48.0,
+        48.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Chak",
+      "anchor": "Parent",
+      "pos": [
+        -330.0,
+        400.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            78288
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Missing",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "Rat\\Chak.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        48.0,
+        48.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Dash",
+      "anchor": "Parent",
+      "pos": [
+        -224.0,
+        400.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            77749
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Missing",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "Rat\\Dash.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        48.0,
+        48.0
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Mortar",
+      "anchor": "Parent",
+      "pos": [
+        -177.0,
+        400.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            77835
+          ]
+        },
+        "threshold": {
+          "threshold_type": "Missing",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Icon",
+      "icon": {
+        "File": "Rat\\Mortar.png"
+      },
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "zoom": 1.0,
+      "round": 0.0,
+      "border_size": 0.0,
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "conditions": [],
+      "duration_bar": false,
+      "duration_text": false,
+      "stacks_text": false,
+      "size": [
+        48.0,
+        48.0
+      ]
+    }
+  ]
+}
