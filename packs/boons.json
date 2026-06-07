@@ -6,7 +6,7 @@
     "Screen": "Center"
   },
   "pos": [
-    560.0,
+    565.0,
     -128.0
   ],
   "opacity": 1.0,
@@ -46,11 +46,11 @@
   "elements": [
     {
       "enabled": true,
-      "name": "Offensive",
+      "name": "Alac / Quick",
       "anchor": "Parent",
       "pos": [
-        0.0,
-        790.0
+        -844.0,
+        622.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -89,8 +89,8 @@
       "layout": "Static",
       "direction": "Horizontal",
       "size": [
-        70.0,
-        70.0
+        50.0,
+        50.0
       ],
       "pad": 17.0,
       "icons": [
@@ -220,11 +220,11 @@
     },
     {
       "enabled": true,
-      "name": "Situational",
+      "name": "Aegis / Stab",
       "anchor": "Parent",
       "pos": [
-        0.0,
-        710.0
+        -304.0,
+        622.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -263,8 +263,8 @@
       "layout": "Static",
       "direction": "Horizontal",
       "size": [
-        70.0,
-        70.0
+        50.0,
+        50.0
       ],
       "pad": 17.0,
       "icons": [
