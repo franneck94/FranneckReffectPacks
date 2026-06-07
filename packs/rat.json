@@ -1,6 +1,6 @@
 {
   "schema": "v1",
-  "enabled": false,
+  "enabled": true,
   "name": "rat",
   "anchor": {
     "Screen": "Center"
@@ -29,7 +29,9 @@
       "relics": [],
       "traits": [],
       "trait_mode": "All",
-      "specs": [],
+      "specs": [
+        "Antiquary"
+      ],
       "skill_selections": [],
       "skill_selections_mode": "All",
       "prof_selections": [],

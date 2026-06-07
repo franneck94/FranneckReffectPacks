@@ -1,7 +1,7 @@
 {
   "schema": "v1",
   "enabled": true,
-  "name": "Buffs",
+  "name": "Food, Sigil, Relic",
   "anchor": {
     "Screen": "Center"
   },
@@ -53,8 +53,8 @@
       "name": "Food",
       "anchor": "Parent",
       "pos": [
-        503.0,
-        80.0
+        -555.0,
+        50.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -33021,8 +33021,8 @@
       "name": "Utility",
       "anchor": "Parent",
       "pos": [
-        546.0,
-        80.0
+        -510.0,
+        50.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -46571,8 +46571,8 @@
       "name": "Sigils",
       "anchor": "Parent",
       "pos": [
-        -504.0,
-        27.0
+        -515.0,
+        55.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -47345,8 +47345,8 @@
       "name": "Relics",
       "anchor": "Parent",
       "pos": [
-        0.0,
-        0.0
+        -470.0,
+        50.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -47388,8 +47388,8 @@
           "name": "Thorns",
           "anchor": "Parent",
           "pos": [
-            -554.0,
-            93.0
+            0.0,
+            0.0
           ],
           "opacity": 1.0,
           "trigger": {
