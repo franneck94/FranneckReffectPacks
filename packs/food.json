@@ -47231,7 +47231,9 @@
                   "mounts": []
                 },
                 "map": {
-                  "category": [],
+                  "category": [
+                    "PvE"
+                  ],
                   "whitelist": true,
                   "ids": []
                 }
@@ -47335,6 +47337,70 @@
                 40.0,
                 40.0
               ]
+            },
+            {
+              "enabled": true,
+              "name": "Night Sigil",
+              "anchor": "Parent",
+              "pos": [
+                16.0,
+                -73.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "type": "Inherit"
+                },
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [
+                    36053
+                  ],
+                  "sigil_mode": "Any",
+                  "relics": [],
+                  "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [
+                    "PvE",
+                    "Instance",
+                    "Other"
+                  ],
+                  "whitelist": true,
+                  "ids": [
+                    1154,
+                    1155
+                  ]
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "Night Sigill",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "None",
+              "conditions": []
             }
           ]
         }
