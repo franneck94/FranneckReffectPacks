@@ -1,231 +1,168 @@
 {
-  "schema": "v1",
-  "enabled": true,
-  "name": "mesmer_boons",
-  "anchor": {
-    "Screen": "Center"
-  },
-  "pos": [
-    0.0,
-    0.0
-  ],
-  "opacity": 1.0,
-  "trigger": {
-    "source": {
-      "type": "Inherit"
+    "schema": "v1",
+    "enabled": true,
+    "name": "mesmer_boons",
+    "anchor": {
+        "Screen": "Center"
     },
-    "threshold": {
-      "threshold_type": "Always",
-      "amount_type": "Intensity"
-    }
-  },
-  "filter": {
-    "player": {
-      "combat": null,
-      "weapons": [],
-      "weapon_mode": "Any",
-      "sigils": [],
-      "sigil_mode": "Any",
-      "relics": [],
-      "traits": [],
-      "trait_mode": "All",
-      "specs": [],
-      "skill_selections": [],
-      "skill_selections_mode": "All",
-      "prof_selections": [],
-      "mounts": []
-    },
-    "map": {
-      "category": [
-        "PvE",
-        "Instance",
-        "Other"
-      ],
-      "whitelist": true,
-      "ids": []
-    }
-  },
-  "animation": null,
-  "layer": 0,
-  "elements": [
-    {
-      "enabled": true,
-      "name": "Chrono",
-      "anchor": "Parent",
-      "pos": [
+    "pos": [
         0.0,
         0.0
-      ],
-      "opacity": 1.0,
-      "trigger": {
+    ],
+    "opacity": 1.0,
+    "trigger": {
         "source": {
-          "type": "Inherit"
+            "type": "Inherit"
         },
         "threshold": {
-          "threshold_type": "Always",
-          "amount_type": "Intensity"
+            "threshold_type": "Always",
+            "amount_type": "Intensity"
         }
-      },
-      "filter": {
+    },
+    "filter": {
         "player": {
-          "combat": null,
-          "weapons": [],
-          "weapon_mode": "Any",
-          "sigils": [],
-          "sigil_mode": "Any",
-          "relics": [],
-          "traits": [],
-          "trait_mode": "All",
-          "specs": [],
-          "skill_selections": [],
-          "skill_selections_mode": "All",
-          "prof_selections": [],
-          "mounts": []
+            "combat": null,
+            "weapons": [],
+            "weapon_mode": "Any",
+            "sigils": [],
+            "sigil_mode": "Any",
+            "relics": [],
+            "traits": [],
+            "trait_mode": "All",
+            "specs": [],
+            "skill_selections": [],
+            "skill_selections_mode": "All",
+            "prof_selections": [],
+            "mounts": []
         },
         "map": {
-          "category": [],
-          "whitelist": true,
-          "ids": []
+            "category": [
+                "PvE",
+                "Instance",
+                "Other"
+            ],
+            "whitelist": true,
+            "ids": []
         }
-      },
-      "animation": null,
-      "type": "Group",
-      "members": [
+    },
+    "animation": null,
+    "layer": 0,
+    "elements": [
         {
-          "enabled": true,
-          "name": "Quick",
-          "anchor": "Parent",
-          "pos": [
-            0.0,
-            0.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "type": "Inherit"
+            "enabled": true,
+            "name": "Chrono Alac",
+            "anchor": "Parent",
+            "pos": [
+                0.0,
+                0.0
+            ],
+            "opacity": 1.0,
+            "trigger": {
+                "source": {
+                    "type": "Inherit"
+                },
+                "threshold": {
+                    "threshold_type": "Always",
+                    "amount_type": "Intensity"
+                }
             },
-            "threshold": {
-              "threshold_type": "Always",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "weapons": [],
-              "weapon_mode": "Any",
-              "sigils": [],
-              "sigil_mode": "Any",
-              "relics": [],
-              "traits": [],
-              "trait_mode": "All",
-              "specs": [],
-              "skill_selections": [],
-              "skill_selections_mode": "All",
-              "prof_selections": [],
-              "mounts": []
+            "filter": {
+                "player": {
+                    "combat": null,
+                    "weapons": [],
+                    "weapon_mode": "Any",
+                    "sigils": [],
+                    "sigil_mode": "Any",
+                    "relics": [],
+                    "traits": [],
+                    "trait_mode": "All",
+                    "specs": [],
+                    "skill_selections": [],
+                    "skill_selections_mode": "All",
+                    "prof_selections": [],
+                    "mounts": []
+                },
+                "map": {
+                    "category": [],
+                    "whitelist": true,
+                    "ids": []
+                }
             },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": "Unknown",
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": false,
-          "size": [
-            32.0,
-            32.0
-          ]
-        },
-        {
-          "enabled": true,
-          "name": "Alac",
-          "anchor": "Parent",
-          "pos": [
-            0.0,
-            0.0
-          ],
-          "opacity": 1.0,
-          "trigger": {
-            "source": {
-              "type": "Inherit"
-            },
-            "threshold": {
-              "threshold_type": "Always",
-              "amount_type": "Intensity"
-            }
-          },
-          "filter": {
-            "player": {
-              "combat": null,
-              "weapons": [],
-              "weapon_mode": "Any",
-              "sigils": [],
-              "sigil_mode": "Any",
-              "relics": [],
-              "traits": [],
-              "trait_mode": "All",
-              "specs": [],
-              "skill_selections": [],
-              "skill_selections_mode": "All",
-              "prof_selections": [],
-              "mounts": []
-            },
-            "map": {
-              "category": [],
-              "whitelist": true,
-              "ids": []
-            }
-          },
-          "animation": null,
-          "type": "Icon",
-          "icon": "Unknown",
-          "tint": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "zoom": 1.0,
-          "round": 0.0,
-          "border_size": 0.0,
-          "border_color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "conditions": [],
-          "duration_bar": false,
-          "duration_text": false,
-          "stacks_text": false,
-          "size": [
-            32.0,
-            32.0
-          ]
+            "animation": null,
+            "type": "Group",
+            "members": [
+                {
+                    "enabled": true,
+                    "name": "Icon",
+                    "anchor": "Parent",
+                    "pos": [
+                        -430.0,
+                        600.0
+                    ],
+                    "opacity": 1.0,
+                    "trigger": {
+                        "source": {
+                            "type": "Inherit"
+                        },
+                        "threshold": {
+                            "threshold_type": "Always",
+                            "amount_type": "Intensity"
+                        }
+                    },
+                    "filter": {
+                        "player": {
+                            "combat": null,
+                            "weapons": [],
+                            "weapon_mode": "Any",
+                            "sigils": [],
+                            "sigil_mode": "Any",
+                            "relics": [],
+                            "traits": [],
+                            "trait_mode": "All",
+                            "specs": [
+                                "Chronomancer"
+                            ],
+                            "skill_selections": [],
+                            "skill_selections_mode": "All",
+                            "prof_selections": [],
+                            "mounts": []
+                        },
+                        "map": {
+                            "category": [],
+                            "whitelist": true,
+                            "ids": []
+                        }
+                    },
+                    "animation": null,
+                    "type": "Icon",
+                    "icon": {
+                        "File": "Alacrity.png"
+                    },
+                    "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "zoom": 1.0,
+                    "round": 0.0,
+                    "border_size": 0.0,
+                    "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "conditions": [],
+                    "duration_bar": false,
+                    "duration_text": false,
+                    "stacks_text": false,
+                    "size": [
+                        48.0,
+                        48.0
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
