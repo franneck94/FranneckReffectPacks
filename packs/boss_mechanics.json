@@ -251,7 +251,7 @@
         },
         "threshold": {
           "threshold_type": {
-            "Below": 1.0
+            "Below": 35.4
           },
           "amount_type": "Percent"
         }
@@ -280,7 +280,7 @@
       },
       "animation": null,
       "type": "Text",
-      "text": "Red: %c",
+      "text": "%c",
       "font": "MENOMONIA_BIG_S",
       "align": "Center",
       "scale": 4.0,
@@ -291,7 +291,26 @@
         1.0
       ],
       "decoration": "OutlineDouble",
-      "conditions": []
+      "conditions": [
+        {
+          "trigger": {
+            "Map": {
+              "category": [
+                "Instance"
+              ],
+              "whitelist": true,
+              "ids": [
+                1156
+              ]
+            }
+          },
+          "properties": {
+            "scale": null,
+            "color": null,
+            "decoration": null
+          }
+        }
+      ]
     },
     {
       "enabled": true,
@@ -312,7 +331,7 @@
         },
         "threshold": {
           "threshold_type": {
-            "Below": 1.0
+            "Below": 36.6
           },
           "amount_type": "Percent"
         }
@@ -341,7 +360,7 @@
       },
       "animation": null,
       "type": "Text",
-      "text": "Red: %c",
+      "text": "%c",
       "font": "MENOMONIA_BIG_S",
       "align": "Center",
       "scale": 4.0,
@@ -352,7 +371,26 @@
         1.0
       ],
       "decoration": "OutlineDouble",
-      "conditions": []
+      "conditions": [
+        {
+          "trigger": {
+            "Map": {
+              "category": [
+                "Instance"
+              ],
+              "whitelist": true,
+              "ids": [
+                1156
+              ]
+            }
+          },
+          "properties": {
+            "scale": null,
+            "color": null,
+            "decoration": null
+          }
+        }
+      ]
     },
     {
       "enabled": true,
