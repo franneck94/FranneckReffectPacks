@@ -234,6 +234,128 @@
     },
     {
       "enabled": true,
+      "name": "KC - Red",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -482.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            35014
+          ]
+        },
+        "threshold": {
+          "threshold_type": {
+            "Below": 1.0
+          },
+          "amount_type": "Percent"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Text",
+      "text": "Red: %c",
+      "font": "MENOMONIA_BIG_S",
+      "align": "Center",
+      "scale": 4.0,
+      "color": [
+        0.66480446,
+        0.31197533,
+        0.0,
+        1.0
+      ],
+      "decoration": "OutlineDouble",
+      "conditions": []
+    },
+    {
+      "enabled": true,
+      "name": "KC - White",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        -482.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": {
+          "type": "Buff",
+          "combatant": "Player",
+          "ids": [
+            34992
+          ]
+        },
+        "threshold": {
+          "threshold_type": {
+            "Below": 1.0
+          },
+          "amount_type": "Percent"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Text",
+      "text": "Red: %c",
+      "font": "MENOMONIA_BIG_S",
+      "align": "Center",
+      "scale": 4.0,
+      "color": [
+        0.66480446,
+        0.31197533,
+        0.0,
+        1.0
+      ],
+      "decoration": "OutlineDouble",
+      "conditions": []
+    },
+    {
+      "enabled": true,
       "name": "Ura Sulphuric Target",
       "anchor": "Parent",
       "pos": [
